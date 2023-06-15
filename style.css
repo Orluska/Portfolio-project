@@ -86,3 +86,28 @@ p {
 .project-description {
   margin: 90px 60px;
 }
+@media (max-width: 900px) {
+  .project {
+    text-align: center;
+  }
+  p {
+    margin: 60px 0;
+    font-size: 22px;
+  }
+  .project-description {
+    margin: 20px;
+  }
+  .hero {
+      padding: 100px 40px;
+    }
+  .hero h1 {
+  font-size: 76px;
+  line-height: 80px;
+  font-style: normal;
+  margin-bottom: 20px;
+}
+.project h1 {
+  font-size: 54px;
+  line-height: 50px;
+  font-style: normal;
+}
