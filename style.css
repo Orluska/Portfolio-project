@@ -48,19 +48,17 @@ p {
 .btn-branding {
   background: var(--primary-color);
   color: #ffffff;
-  width: 200px;
   padding: 18px 30px;
   font-weight: 500;
   font-size: 18px;
   text-decoration: none;
   border-radius: 4px;
-  line-height: 63px;
+  line-height: 27px;
   box-shadow: (0px 4px 4px rgba(0, 0, 0, 0.25));
   margin: 40px 0;
 }
 .btn-branding-outline {
   color: var(--primary-color);
-  width: 200px;
   padding: 18px 30px;
   font-weight: 500;
   font-size: 18px;
@@ -74,7 +72,6 @@ p {
 .project h1 {
   font-size: 64px;
   line-height: 85px;
-  font-style: normal;
 }
 .project p {
   font-size: 16px;
@@ -83,9 +80,36 @@ p {
   color: rgba(39, 33, 66, 0.7);
   text-align: left;
 }
+.project h2 {
+  font-size: 18px;
+  line-height: 27px;
+}
 .project-description {
   margin: 90px 60px;
 }
+
+.about-me h1 {
+  font-size: 64px;
+  line-height: 85px;
+}
+.about-me p {
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 400;
+  color: rgba(39, 33, 66, 0.7);
+  text-align: left;
+}
+.about-me h2 {
+  font-size: 18px;
+  line-height: 27px;
+}
+.about-me {
+  padding-left: 50px;
+}
+.about-section {
+  margin: 30px 0;
+}
+
 @media (max-width: 900px) {
   .project {
     text-align: center;
@@ -110,5 +134,13 @@ p {
     font-size: 54px;
     line-height: 50px;
     font-style: normal;
+  }
+  .about-me h1 {
+    font-size: 64px;
+    line-height: 80px;
+    margin-bottom: 40px;
+  }
+  .about-me h2 {
+    margin-bottom: 10px;
   }
 }
