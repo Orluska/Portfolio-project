@@ -114,6 +114,9 @@ p {
   .project {
     text-align: center;
   }
+  .about-me {
+    text-align: center;
+  }
   p {
     margin: 60px 0;
     font-size: 22px;
@@ -143,4 +146,8 @@ p {
   .about-me h2 {
     margin-bottom: 10px;
   }
+  .about-me p {
+    text-align: center;
+  }
+  
 }
