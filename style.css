@@ -109,6 +109,46 @@ p {
 .about-section {
   margin: 30px 0;
 }
+.my-work-section h1 {
+  text-align: left;
+  font-size: 64px;
+  line-height: 85px;
+}
+.my-work-section h2 {
+  color: var(--heading-color);
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 700;
+  font-style: normal;
+  margin-bottom: 0;
+}
+.my-work-section p {
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  color: rgba(39, 33, 66, 0.7);
+}
+.my-contact-section h1 {
+  text-align: left;
+  font-size: 64px;
+  line-height: 85px;
+}
+.work-inquiry {
+  background: var(--secondary-color);
+  border-radius: 20px;
+
+}
+.work-inquiry h1 {
+  font-size: 48px;
+  line-height: 64px;
+}
+.work-inquiry p {
+  text-align: left;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+}
+
 
 @media (max-width: 900px) {
   .project {
@@ -149,5 +189,14 @@ p {
   .about-me p {
     text-align: center;
   }
-  
+  .my-work-section h1 {
+    font-size: 60px;
+    line-height: 80px;
+    font-style: normal;
+    margin-bottom: 20px;
+  }
+  .my-contact-section h1 {
+    font-size: 60px;
+    line-height: 80px;
+  }
 }
