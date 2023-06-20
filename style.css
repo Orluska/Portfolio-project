@@ -137,7 +137,6 @@ p {
   border-radius: 20px;
   padding: 50px 119px;
   margin-top: 100px;
-
 }
 .work-inquiry h1 {
   font-size: 48px;
@@ -149,9 +148,39 @@ p {
   font-size: 18px;
   line-height: 27px;
   margin: 0;
-
+}
+.navigation {
+  padding: 20px 0;
+}
+.navigation-link ul {
+  padding: 0;
+  margin: 0;
+}
+.navigation-links li {
+  display: inline;
+  padding-left: 15px;
+  list-style: none;
+  line-height: 24px;
+}
+.navigation-links a {
+  text-decoration: none;
+  color: #272142;
+  font-size: 16px;
 }
 
+.navigation-links a.active,
+.navigation-links a:hover {
+  color: var(--primary-color);
+}
+
+.logo {
+  max-width: 140px;
+}
+.logosm {
+  max-width: 50px;
+  margin: 0;
+  padding: 0;
+}
 
 @media (max-width: 900px) {
   .project {
