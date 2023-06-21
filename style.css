@@ -101,9 +101,6 @@ p {
   font-size: 18px;
   line-height: 27px;
 }
-.about-me {
-  padding-left: 50px;
-}
 .about-section {
   margin: 30px 0;
 }
@@ -188,9 +185,17 @@ p {
   font-size: 60px;
   line-height: 80px;
 }
+.icon {
+  color: #6c63ff;
+  font-size: 30px;
+  margin: 0 20px;
+ 
+}
+
 @media (max-width: 900px) {
   .project {
     text-align: center;
+
   }
   .about-me {
     text-align: center;
