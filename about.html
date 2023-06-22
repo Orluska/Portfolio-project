@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Patricia Pereira, frontend web developer based in Portugal. Graduated from SheCodes. I am now freelancing at marketing agencies and for clients from all over the world."
+    />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -27,23 +31,33 @@
       src="https://kit.fontawesome.com/7575598d93.js"
       crossorigin="anonymous"
     ></script>
-    <title>Document</title>
+    <title>Patricia Pereira - About me</title>
   </head>
   <body>
     <div class="container navigation">
       <nav class="d-flex justify-content-between">
-        <img src="/image/logo.png" alt="logo" class="logo d-none d-md-block" />
-        <img src="/image/logosmall.jpeg" alt="logo" class="logosm d-md-none" />
+        <a href="/" title="Homepage"
+          ><img
+            src="/image/logo.png"
+            alt="SheCodes full logo"
+            class="logo d-none d-md-block"
+        /></a>
+        <a href="/" title="Homepage"
+          ><img
+            src="/image/logosmall.jpeg"
+            alt="SheCodes small logo"
+            class="logosm d-md-none"
+        /></a>
         <ul class="navigation-links">
-          <li><a href="/">Home</a></li>
-          <li><a href="/about.html" class="active">About</a></li>
-          <li><a href="/work.html">Work</a></li>
-          <li><a href="/contact.html">Contact</a></li>
+          <li><a href="/" title="Homepage">Home</a></li>
+          <li><a href="/about.html" title="About me" class="active">About</a></li>
+          <li><a href="/work.html" title="My projects">Work</a></li>
+          <li><a href="/contact.html" title="Contact me">Contact</a></li>
         </ul>
       </nav>
     </div>
     <div class="container">
-      <div class="row about-section">
+      <div class="row about-section mt-5">
         <div class="col-md-6 about-me">
           <h1>Hi I am Patricia Pereira</h1>
           <h2>Frontend Developer, based in Portugal.</h2>
@@ -53,14 +67,14 @@
             everything is well explained, homework and deadlines are good for
             keep focus
           </p>
-          <a href="/work.html" class="btn btn-branding">View my project</a>
+          <a href="/work.html" class="btn btn-branding" title="View my projects">View my project</a>
         </div>
         <div class="col-md-6">
-          <img src="/image/patricia.png" class="img-fluid" alt="" />
+          <img src="/image/patricia.png" class="img-fluid Patricia-profile" alt="Patricia photo" />
         </div>
       </div>
     </div>
-    <footer>
+     <footer>
       <div
         class="container contact-box d-flex justify-content-between d-none d-md-flex"
       >
@@ -71,28 +85,47 @@
           </p>
         </div>
         <div>
-          <a href="mailto:patricia@gmail.com" class="btn btn-branding"
+          <a
+            href="mailto:patricia@gmail.com"
+            class="btn btn-branding"
+            title="My contact email"
             >Let’s talk here</a
           >
         </div>
       </div>
       <h2 class="text-center mb-4">
-        <a href="mailto:youremail@gmail.com" class="email-link"
+        <a
+          href="mailto:youremail@gmail.com"
+          class="email-link"
+          title="My contact email"
           >patricia@gmail.com</a
         >
       </h2>
 
       <div class="social-networks d-flex justify-content-center">
-        <a href="https://www.instagram.com" target="_blank">
-          <i class="fa-brands fa-instagram icon"></i
+        <a href="https://www.instagram.com" target="_blank" title="Instagram">
+          <i class="fa-brands fa-instagram icon" alt="Instagram-icon"></i
         ></a>
-        <a href="https://www.facebook.com" target="_blank"
-          ><i class="fa-brands fa-facebook icon"></i
+        <a href="https://www.facebook.com" target="_blank" title="facebook"
+          ><i class="fa-brands fa-facebook icon" alt="Facebook icon"></i
         ></a>
-        <a href="https://github.com/Orluska/Portfolio-project" target="_blank"
-          ><i class="fa-brands fa-github icon"></i
+        <a
+          href="https://github.com/Orluska/Portfolio-project"
+          target="_blank"
+          title="Git-Hub"
+          ><i class="fa-brands fa-github icon" alt="Git-Hub icon"></i
         ></a>
       </div>
+      <p class="text-center mt-30 mb-5 final-note">
+        Coded by Zuzana Bernatek for SheCodes Responsive.<br />Open-sourced in
+        <a
+          href="https://github.com/Orluska/Portfolio-project"
+          title="link to Git-Hub"
+          class="gh-link"
+          target="_blank"
+          >Github</a
+        >.
+      </p>
     </footer>
   </body>
 </html>

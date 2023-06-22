@@ -24,7 +24,7 @@ p {
 .hero {
   text-align: center;
   background: var(--secondary-color);
-  padding: 150px 40px;
+  padding: 80px 40px;
 }
 .hero p {
   font-size: 36px;
@@ -101,9 +101,7 @@ p {
   font-size: 18px;
   line-height: 27px;
 }
-.about-section {
-  margin: 30px 0;
-}
+
 .my-work-section h1 {
   text-align: left;
   font-size: 64px;
@@ -140,7 +138,6 @@ p {
   margin-top: 100px;
   margin-bottom: 30px;
 }
-
 .navigation {
   padding: 20px 0;
 }
@@ -189,13 +186,18 @@ p {
   color: #6c63ff;
   font-size: 30px;
   margin: 0 20px;
- 
+}
+.gh-link {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+.final-note {
+  font-size: 14px;
 }
 
 @media (max-width: 900px) {
   .project {
     text-align: center;
-
   }
   .about-me {
     text-align: center;
@@ -208,7 +210,7 @@ p {
     margin: 20px;
   }
   .hero {
-    padding: 100px 40px;
+    padding: 50px 40px;
   }
   .hero h1 {
     font-size: 76px;
@@ -245,5 +247,23 @@ p {
     margin-top: 100px;
     margin-bottom: 30px;
   }
-  
+  .final-note {
+    font-size: 10px;
+  }
+  .Patricia-profile {
+    padding-top: 50px;
+    padding-bottom: 20px;
+  }
+  .my-work-section h1 {
+    font-size: 64px;
+    line-height: 80px;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  .my-contact-section h1 {
+    font-size: 64px;
+    line-height: 80px;
+    margin-bottom: 40px;
+    text-align: center;
+  }
 }
