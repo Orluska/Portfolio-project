@@ -86,10 +86,6 @@ p {
 .project-description {
   margin: 90px 60px;
 }
-.about-me h1 {
-  font-size: 64px;
-  line-height: 85px;
-}
 .about-me p {
   font-size: 16px;
   line-height: 30px;
@@ -101,9 +97,15 @@ p {
   font-size: 18px;
   line-height: 27px;
 }
-
 .my-work-section h1 {
-  text-align: left;
+  font-size: 64px;
+  line-height: 85px;
+}
+.my-contact-section h1 {
+  font-size: 64px;
+  line-height: 85px;
+}
+.about-me h1 {
   font-size: 64px;
   line-height: 85px;
 }
@@ -178,10 +180,6 @@ p {
 .email-link:hover {
   color: var(--primary-color);
 }
-.my-contact-section h1 {
-  font-size: 60px;
-  line-height: 80px;
-}
 .icon {
   color: #6c63ff;
   font-size: 30px;
@@ -238,7 +236,6 @@ p {
     font-size: 60px;
     line-height: 80px;
     font-style: normal;
-    margin-bottom: 20px;
   }
   .contact-box {
     background: var(--secondary-color);
